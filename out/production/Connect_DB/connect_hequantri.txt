@@ -1,0 +1,66 @@
+
+MySQL Database
+
+DBMS: MySQL Server 5.0
+
+Vendor: Oracle Corporation
+
+Web Site: http://www.oracle.com
+
+Driver Type: JDBC Driver (Pure Java)
+
+URL Format: jdbc:mySQL://<server>:<port>/<database>?<props> 
+
+URL Example: jdbc:mySQL://HYE6754:3306/chanda
+
+URL Example: jdbc:mySQL://HYE6754:3306/chanda
+
+Driver Class: com.mySQL.jdbc.Driver
+
+Oracle Database
+
+DBMS: Oracle 10g Vendor: Oracle Corporation
+
+Web Site: http://www.oracle.com 
+
+Driver Type: JDBC Driver (thin – Pure Java) 
+
+URL Format: jdbc:oracle:thin:@::<server>:<port>:<database>:<props>  
+
+URL Example: jdbc:oracle:thin:@localhost:1521:chanda Driver Class: oracle.jdbc.driver.OracleDriver
+
+SQL Server
+
+// Driver #1
+
+DBMS: SQL Server
+
+Vendor: Microsoft Corporation
+
+Web Site: http://www.microsoft.com
+
+Driver Type: JDBC Driver (Pure Java)
+
+URL Format: jdbc:SQLserver://<server>:<port>
+
+URL Example: jdbc:SQLserver://HYE6754:1433;Database=chanda
+
+Driver Class: com.microsoft.SQLserver.jdbc.SQLServerDriver
+
+
+
+// Driver #2
+
+DBMS: SQL Server
+
+Vendor: SourceForge Inc.
+
+Web Site: http://www.sourceforge.net
+
+Driver Type: JDBC Driver (Pure Java)
+
+URL Format: jdbc:jtds:<server_type>://<server>:<port>/<database>;<props>
+
+URL Example: jdbc:jtds:sqlserver://HYE6754:1433/chanda
+
+Driver Class: net.sourceforge.jtds.jdbc.Driver
