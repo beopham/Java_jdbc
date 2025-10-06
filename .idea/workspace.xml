@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9256695d-dc78-4f34-9578-10631b9ccdda" name="Changes" comment="Tạo cách kết nối database lần 1">
-      <change afterPath="$PROJECT_DIR$/src/Bai1_Connect_DB/Database/Test_insert.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Connect_DB/connect_db.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Connect_DB/connect_db.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Connect_DB/connect_hequantri.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Connect_DB/connect_hequantri.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bai1_Connect_DB/Database/Test_insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai1_Connect_DB/Database/Test_insert.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
