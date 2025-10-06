@@ -41,7 +41,7 @@ public class Connect {
             e.printStackTrace();
         }
     }
-
+   // in thông tin nha
     public static void printInfo(Connection c) {
         try {
             if (c != null) {

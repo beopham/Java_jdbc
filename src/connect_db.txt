@@ -13,7 +13,7 @@ public class Connect {
             // Đăng ký Driver mới (nếu muốn gọi thủ công)
             Class.forName("com.mysql.cj.jdbc.Driver");
 
-            // Các thông số kết nối
+            // Các thông số kết nối nha
             String url = "jdbc:mysql://localhost:3306/phamvannam";
             String username = "root";
             String password = "123456";
