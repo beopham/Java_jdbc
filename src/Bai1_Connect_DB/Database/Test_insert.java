@@ -10,7 +10,7 @@ public class Test_insert {
             Connection connection =Connect.getConnection();
             // bước 2 tạo đối tượng statement
             Statement st=connection.createStatement();
-            // bước 3 // thực thi câu lệnh sql
+            // bước 3 // thực thi câu lệnh sql nha ae
             String sql="\n" +
                     "INSERT INTO `phamvannam`.`nhanvien` (`manv`, `hoten`, `ngaysinh`, `diachi`, `sdt`, `giotinh`, `mapb`, `luong`) " +
                     "VALUES ('NV034', 'Lê Công Vinh', '1998-10-30', '200 Nguyễn Duy Trinh, TP HCM', '0906542368', 'Nam', '5', '900000');\n";
