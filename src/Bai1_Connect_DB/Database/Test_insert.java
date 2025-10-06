@@ -24,7 +24,7 @@ public class Test_insert {
             {
                 System.out.println("thất bại");
             }
-            // bước 5 ngắt kết nối nha
+            // bước 5 ngắt kết nối nha ok
 
             Connect.closeConnection(connection);
         } catch (Exception e) {
