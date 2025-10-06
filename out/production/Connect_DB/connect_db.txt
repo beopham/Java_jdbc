@@ -1,80 +1,76 @@
-
-package database;
+package Bai1_Connect_DB.Database;
 
 import java.sql.Connection;
 import java.sql.DatabaseMetaData;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-import com.mysql.cj.jdbc.Driver;
+public class Connect {
+    public static Connection getConnection() {
+        Connection c = null;
 
-public class JDBCUtil {
-	public static Connection getConnection() {
-		Connection c = null;
-		
-		try {
-			// Đăng ký MySQL Driver với DriverManager
-			DriverManager.registerDriver(new com.mysql.jdbc.Driver());
-			
-			// Các thông số
-			String url = "jdbc:mySQL://localhost:3306/ontap";
-			String username = "root";
-			String password = "";
-			
-			// Tạo kết nối
-			c = DriverManager.getConnection(url, username, password);
-			
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		return c;
-	}
-	
-	public static void closeConnection(Connection c) {
-		try {
-			if(c!=null) {
-				c.close();
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-	
-	public static void printInfo(Connection c) {
-		try {
-			if(c!=null) {
-				DatabaseMetaData mtdt = c.getMetaData();
-				System.out.println(mtdt.getDatabaseProductName());
-				System.out.println(mtdt.getDatabaseProductVersion());
-			}
-		} catch (SQLException e) {
-			e.printStackTrace();
-		}
-	}
+        try {
+            // Đăng ký Driver mới (nếu muốn gọi thủ công)
+            Class.forName("com.mysql.cj.jdbc.Driver");
+
+            // Các thông số kết nối nha
+            String url = "jdbc:mysql://localhost:3306/phamvannam";
+            String username = "root";
+            String password = "123456";
+
+            // Tạo kết nối
+            c = DriverManager.getConnection(url, username, password);
+
+        } catch (ClassNotFoundException e) {
+            System.out.println("Không tìm thấy Driver MySQL!");
+            e.printStackTrace();
+        } catch (SQLException e) {
+            System.out.println("Kết nối thất bại!");
+            e.printStackTrace();
+        }
+
+        return c;
+    }
+
+    public static void closeConnection(Connection c) {
+        try {
+            if (c != null && !c.isClosed()) {
+                c.close();
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void printInfo(Connection c) {
+        try {
+            if (c != null) {
+                DatabaseMetaData mtdt = c.getMetaData();
+                System.out.println(mtdt.getDatabaseProductName());
+                System.out.println(mtdt.getDatabaseProductVersion());
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
 }
-
-    
-
-  
-  
-
-package test;
+package Bai1_Connect_DB.Database;
 
 import java.sql.Connection;
 
-import database.JDBCUtil;
+public class Test {
+    public static void main(String[] args) {
+        // Gọi hàm getConnection
+        Connection conn = Connect.getConnection();
 
-public class TestJDBCUtil {
-	public static void main(String[] args) {
-		Connection connection = JDBCUtil.getConnection();
-		
-		JDBCUtil.printInfo(connection);
-		
-		JDBCUtil.closeConnection(connection);
-		
-	}
-	
-	
+        if (conn != null) {
+            System.out.println("✅ Kết nối thành công!");
+            // In thêm thông tin DB
+            Connect.printInfo(conn);
+            // Đóng kết nối
+            Connect.closeConnection(conn);
+        } else {
+            System.out.println("❌ Kết nối thất bại!");
+        }
+    }
 }

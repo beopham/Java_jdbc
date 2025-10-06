@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9256695d-dc78-4f34-9578-10631b9ccdda" name="Changes" comment="Tạo cách kết nối database lần 1" />
+    <list default="true" id="9256695d-dc78-4f34-9578-10631b9ccdda" name="Changes" comment="Tạo cách kết nối database lần 1">
+      <change afterPath="$PROJECT_DIR$/src/Bai1_Connect_DB/Database/Test_insert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Connect_DB/connect_db.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Connect_DB/connect_db.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Connect_DB/connect_hequantri.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Connect_DB/connect_hequantri.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +39,7 @@
 }]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/beopham/vidu.git",
+    "url": "https://github.com/beopham/Java_jdbc.git",
     "accountId": "3f5e0e2a-e259-40f6-b3c8-58aae23593ca"
   }
 }]]></component>
@@ -49,6 +54,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Test.executor": "Run",
+    "Application.Test_insert.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -67,7 +73,7 @@
       <recent name="D:\quyetdinhcuocdoi\Java_jdbc\vidu\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Test_insert">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Bai1_Connect_DB.Database.Test" />
       <module name="Connect_DB" />
@@ -81,8 +87,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test_insert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bai1_Connect_DB.Database.Test_insert" />
+      <module name="Connect_DB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Bai1_Connect_DB.Database.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test_insert" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -109,5 +129,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Tạo cách kết nối database lần 1" />
     <option name="LAST_COMMIT_MESSAGE" value="Tạo cách kết nối database lần 1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Bai1_Connect_DB/Database/Test_insert.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

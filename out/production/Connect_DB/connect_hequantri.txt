@@ -49,7 +49,7 @@ Driver Class: com.microsoft.SQLserver.jdbc.SQLServerDriver
 
 
 
-// Driver #2
+// Driver #2 ok
 
 DBMS: SQL Server
 
