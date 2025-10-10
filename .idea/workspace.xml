@@ -5,8 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9256695d-dc78-4f34-9578-10631b9ccdda" name="Changes" comment="insert on mysql">
+      <change afterPath="$PROJECT_DIR$/src/Bai2_Sach/Dao/DAOinterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bai2_Sach/Dao/DAOkhachhang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bai2_Sach/Dao/DAOsach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bai2_Sach/Database/JDBCUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bai2_Sach/Model/KhachHang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bai2_Sach/Model/Sach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bai2_Sach/Test/ketquasach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bai3_Onsach/Dao/Daosach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bai3_Onsach/Database/JDBCUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bai3_Onsach/Model/KhachHang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bai3_Onsach/Model/Sach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bai3_Onsach/Test/menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai1_Connect_DB/Database/Test_insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai1_Connect_DB/Database/Test_insert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bai1_Connect_DB/Database/JDBCUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai1_Connect_DB/Database/JDBCUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bai1_Connect_DB/Database/Oninsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai1_Connect_DB/Database/Oninsert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bai2Sach/Dao/DAOinterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai3_Onsach/Dao/DAOinterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bai2Sach/Dao/DAOkhachhang.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bai2Sach/Dao/DAOsach.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bai2Sach/Database/JDBCUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bai2Sach/Model/KhachHang.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bai2Sach/Model/Sach.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +41,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -29,18 +49,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "beopham"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;beopham&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/beopham/Java_jdbc.git",
-    "accountId": "3f5e0e2a-e259-40f6-b3c8-58aae23593ca"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/beopham/Java_jdbc.git&quot;,
+    &quot;accountId&quot;: &quot;3f5e0e2a-e259-40f6-b3c8-58aae23593ca&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -51,8 +71,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Oninsert.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.Test_insert.executor": "Run",
+    "Application.ketquasach.executor": "Run",
+    "Application.menu.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -60,18 +83,32 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/quyetdinhcuocdoi/Java_jdbc/vidu/src/Bai1_Connect_DB/lib",
+    "last_opened_file_path": "D:/quyetdinhcuocdoi/Java_jdbc/vidu/src/Bai3_Onsach",
     "onboarding.tips.debug.path": "D:/quyetdinhcuocdoi/Java_jdbc/vidu/src/Main.java",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\quyetdinhcuocdoi\Java_jdbc\vidu\src\Bai3_Onsach\" />
       <recent name="D:\quyetdinhcuocdoi\Java_jdbc\vidu\src\Bai1_Connect_DB\lib" />
       <recent name="D:\quyetdinhcuocdoi\Java_jdbc\vidu\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test_insert">
+  <component name="RunManager" selected="Application.menu">
+    <configuration name="Oninsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bai1_Connect_DB.Database.Oninsert" />
+      <module name="Connect_DB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Bai1_Connect_DB.Database.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Bai1_Connect_DB.Database.Test" />
       <module name="Connect_DB" />
@@ -98,8 +135,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ketquasach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bai2_Sach.Test.ketquasach" />
+      <module name="Connect_DB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Bai2_Sach.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="menu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bai3_Onsach.Test.menu" />
+      <module name="Connect_DB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Bai3_Onsach.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.menu" />
+        <item itemvalue="Application.ketquasach" />
+        <item itemvalue="Application.Oninsert" />
         <item itemvalue="Application.Test_insert" />
         <item itemvalue="Application.Test" />
       </list>
