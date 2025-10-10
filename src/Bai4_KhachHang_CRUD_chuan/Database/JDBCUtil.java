@@ -1,4 +1,4 @@
-package Bai4_KhachHang_CodeChuan.Database;
+package Bai4_KhachHang_CRUD_chuan.Database;
 
 import java.sql.Connection;
 import java.sql.DatabaseMetaData;

@@ -1,26 +1,18 @@
-package Bai4_KhachHang_CodeChuan.Dao;
+package Bai4_KhachHang_CRUD_chuan.Dao;
 
 
-import Bai4_KhachHang_CodeChuan.Model.KhachHang;
-import Bai4_KhachHang_CodeChuan.Database.JDBCUtil;
+import Bai2_Sach.Dao.DAOsach;
+import Bai4_KhachHang_CRUD_chuan.Model.KhachHang;
+import Bai4_KhachHang_CRUD_chuan.Database.JDBCUtil;
 import java.sql.Date;
 import java.sql.*;
 import java.util.ArrayList;
 
 public class DaoKhachHang implements DaoInterface<KhachHang> {
-    // 🔹 Singleton instance
-    private static DaoKhachHang instance;
-
-    // 🔹 Hàm lấy instance duy nhất
-    public static DaoKhachHang getInstance() {
-        if (instance == null) {
-            instance = new DaoKhachHang();
-        }
-        return instance;
+    public static DaoKhachHang getInstance()
+    {
+        return  new DaoKhachHang();
     }
-
-    // 🔹 private constructor để ngăn tạo đối tượng trực tiếp
-    private DaoKhachHang() {}
     @Override
     public int Insert(KhachHang khachHang) {
         int ketqua=0;

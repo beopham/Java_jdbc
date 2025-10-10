@@ -31,7 +31,7 @@ public class Daosach implements DAOinterface<Sach> {
             {
                 System.out.println("k thêm đc");
             }
-
+            pst.close();
             JDBCUtil.closeConnection(con);
         }
         catch (SQLException e)
@@ -67,7 +67,7 @@ public class Daosach implements DAOinterface<Sach> {
             {
                 System.out.println("k thêm đc");
             }
-
+            pst.close();
             JDBCUtil.closeConnection(con);
         }
         catch (SQLException e)
@@ -95,7 +95,7 @@ public class Daosach implements DAOinterface<Sach> {
             {
                 System.out.println("k thêm đc");
             }
-
+             pst.close();
             JDBCUtil.closeConnection(con);
         }
         catch (SQLException e)

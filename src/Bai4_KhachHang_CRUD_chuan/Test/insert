@@ -1,0 +1,11 @@
+
+INSERT INTO khachhang (id_kh, hoten, ngaysinh, diachi) VALUES ('KH001', N'Nguyễn Văn An', '1995-05-15', N'123 Đường Sông Hàn, Đà Nẵng');
+INSERT INTO khachhang (id_kh, hoten, ngaysinh, diachi) VALUES ('KH002', N'Trần Thị Bình', '1998-11-20', N'456 Phố Cổ, Hội An');
+INSERT INTO khachhang (id_kh, hoten, ngaysinh, diachi) VALUES ('KH003', N'Lê Văn Cường', '1990-01-01', N'789 Nguyễn Huệ, TP. Hồ Chí Minh');
+INSERT INTO khachhang (id_kh, hoten, ngaysinh, diachi) VALUES ('KH004', N'Phạm Thị Dung', '2000-07-25', N'321 Láng Hạ, Hà Nội');
+INSERT INTO khachhang (id_kh, hoten, ngaysinh, diachi) VALUES ('KH005', N'Hoàng Minh Hải', '1985-03-10', N'987 Bạch Đằng, Hải Phòng');
+INSERT INTO khachhang (id_kh, hoten, ngaysinh, diachi) VALUES ('KH006', N'Đỗ Trọng Hiếu', '1992-12-30', N'55 Hai Bà Trưng, Huế');
+INSERT INTO khachhang (id_kh, hoten, ngaysinh, diachi) VALUES ('KH007', N'Võ Thị Lan', '1999-04-04', N'67 Trần Phú, Nha Trang');
+INSERT INTO khachhang (id_kh, hoten, ngaysinh, diachi) VALUES ('KH008', N'Bùi Quang Nam', '1997-09-12', N'22 Hùng Vương, Cần Thơ');
+INSERT INTO khachhang (id_kh, hoten, ngaysinh, diachi) VALUES ('KH009', N'Tạ Hoàng Oanh', '1988-06-28', N'88 Phạm Văn Đồng, Vũng Tàu');
+INSERT INTO khachhang (id_kh, hoten, ngaysinh, diachi) VALUES ('KH010', N'Chu Văn Phong', '1996-02-02', N'101 Điện Biên Phủ, Biên Hòa');

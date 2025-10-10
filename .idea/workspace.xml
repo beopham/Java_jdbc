@@ -4,28 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9256695d-dc78-4f34-9578-10631b9ccdda" name="Changes" comment="insert on mysql">
-      <change afterPath="$PROJECT_DIR$/src/Bai2_Sach/Dao/DAOinterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai2_Sach/Dao/DAOkhachhang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai2_Sach/Dao/DAOsach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai2_Sach/Database/JDBCUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai2_Sach/Model/KhachHang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai2_Sach/Model/Sach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai2_Sach/Test/ketquasach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai3_Onsach/Dao/Daosach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai3_Onsach/Database/JDBCUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai3_Onsach/Model/KhachHang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai3_Onsach/Model/Sach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai3_Onsach/Test/menu.java" afterDir="false" />
+    <list default="true" id="9256695d-dc78-4f34-9578-10631b9ccdda" name="Changes" comment="on tap 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Bai1_Connect_DB/Database/JDBCUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai1_Connect_DB/Database/JDBCUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Bai1_Connect_DB/Database/Oninsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai1_Connect_DB/Database/Oninsert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai2Sach/Dao/DAOinterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai3_Onsach/Dao/DAOinterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai2Sach/Dao/DAOkhachhang.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai2Sach/Dao/DAOsach.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai2Sach/Database/JDBCUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai2Sach/Model/KhachHang.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai2Sach/Model/Sach.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bai3_Onsach/Dao/Daosach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai3_Onsach/Dao/Daosach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bai4_KhachHang_CRUD_chuan/Dao/DaoInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai4_KhachHang_CRUD_chuan/Dao/DaoInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bai4_KhachHang_CRUD_chuan/Dao/DaoKhachHang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai4_KhachHang_CRUD_chuan/Dao/DaoKhachHang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bai4_KhachHang_CRUD_chuan/Database/JDBCUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai4_KhachHang_CRUD_chuan/Database/JDBCUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bai4_KhachHang_CRUD_chuan/Model/KhachHang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai4_KhachHang_CRUD_chuan/Model/KhachHang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bai4_KhachHang_CRUD_chuan/Test/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai4_KhachHang_CRUD_chuan/Test/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bai4_KhachHang_CRUD_chuan/Test/insert" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai4_KhachHang_CRUD_chuan/Test/insert" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +60,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Menu.executor": "Run",
     "Application.Oninsert.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.Test_insert.executor": "Run",
@@ -83,25 +73,29 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/quyetdinhcuocdoi/Java_jdbc/vidu/src/Bai3_Onsach",
+    "last_opened_file_path": "D:/quyetdinhcuocdoi/Java_jdbc/vidu/src/Bai4_KhachHang",
     "onboarding.tips.debug.path": "D:/quyetdinhcuocdoi/Java_jdbc/vidu/src/Main.java",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\quyetdinhcuocdoi\Java_jdbc\vidu\src\Bai4_KhachHang" />
       <recent name="D:\quyetdinhcuocdoi\Java_jdbc\vidu\src\Bai3_Onsach\" />
       <recent name="D:\quyetdinhcuocdoi\Java_jdbc\vidu\src\Bai1_Connect_DB\lib" />
       <recent name="D:\quyetdinhcuocdoi\Java_jdbc\vidu\src" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Bai4_KhachHang.Model" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.menu">
-    <configuration name="Oninsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bai1_Connect_DB.Database.Oninsert" />
+  <component name="RunManager" selected="Application.Menu">
+    <configuration name="Menu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bai4_KhachHang_CRUD_chuan.Test.Menu" />
       <module name="Connect_DB" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Bai1_Connect_DB.Database.*" />
+          <option name="PATTERN" value="Bai4_KhachHang_CRUD_chuan.Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,8 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bai1_Connect_DB.Database.Test" />
+    <configuration name="Oninsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bai1_Connect_DB.Database.Oninsert" />
       <module name="Connect_DB" />
       <extension name="coverage">
         <pattern>
@@ -163,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Menu" />
         <item itemvalue="Application.menu" />
         <item itemvalue="Application.ketquasach" />
         <item itemvalue="Application.Oninsert" />
         <item itemvalue="Application.Test_insert" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -203,14 +197,32 @@
       <option name="project" value="LOCAL" />
       <updated>1759721383912</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="on tap">
+      <option name="closed" value="true" />
+      <created>1760078725837</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1760078725837</updated>
+    </task>
+    <task id="LOCAL-00005" summary="on tap 2">
+      <option name="closed" value="true" />
+      <created>1760078795835</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1760078795835</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Tạo cách kết nối database lần 1" />
     <MESSAGE value="ok" />
     <MESSAGE value="insert on mysql" />
-    <option name="LAST_COMMIT_MESSAGE" value="insert on mysql" />
+    <MESSAGE value="on tap" />
+    <MESSAGE value="on tap 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="on tap 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

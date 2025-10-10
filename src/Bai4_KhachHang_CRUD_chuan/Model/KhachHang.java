@@ -1,4 +1,4 @@
-package Bai4_KhachHang_CodeChuan.Model;
+package Bai4_KhachHang_CRUD_chuan.Model;
 
 import java.util.Date;
 
@@ -55,7 +55,14 @@ public class KhachHang {
     public void setDiachi(String diachi) {
         this.diachi = diachi;
     }
-
+    public void danhsach()
+    {
+        System.out.println("ID khách hàng: " + getId());
+        System.out.println("Họ tên: "        + getHoten());
+        System.out.println("Ngày sinh: "     + getNgaysinh());
+        System.out.println("Địa chỉ: "       + getDiachi());
+        System.out.println("=======================================");
+    }
     @Override
     public String toString() {
         return "KhachHang{" +

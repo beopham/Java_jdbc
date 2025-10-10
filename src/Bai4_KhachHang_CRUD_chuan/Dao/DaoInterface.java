@@ -1,4 +1,4 @@
-package Bai4_KhachHang_CodeChuan.Dao;
+package Bai4_KhachHang_CRUD_chuan.Dao;
 
 import java.util.ArrayList;
 
