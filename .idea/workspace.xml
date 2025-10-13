@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9256695d-dc78-4f34-9578-10631b9ccdda" name="Changes" comment="on tap 2">
+      <change afterPath="$PROJECT_DIR$/src/bai5_ontap_crud_khachhang/Dao/DaoInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai5_ontap_crud_khachhang/Dao/DaoKhachHang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai5_ontap_crud_khachhang/Database/JDBCUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai5_ontap_crud_khachhang/Model/KhachHang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai5_ontap_crud_khachhang/Test/insert" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai1_Connect_DB/Database/JDBCUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai1_Connect_DB/Database/JDBCUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai1_Connect_DB/Database/Oninsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai1_Connect_DB/Database/Oninsert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai3_Onsach/Dao/Daosach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai3_Onsach/Dao/Daosach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai4_KhachHang_CRUD_chuan/Dao/DaoInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai4_KhachHang_CRUD_chuan/Dao/DaoInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai4_KhachHang_CRUD_chuan/Dao/DaoKhachHang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai4_KhachHang_CRUD_chuan/Dao/DaoKhachHang.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai4_KhachHang_CRUD_chuan/Database/JDBCUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai4_KhachHang_CRUD_chuan/Database/JDBCUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai4_KhachHang_CRUD_chuan/Model/KhachHang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai4_KhachHang_CRUD_chuan/Model/KhachHang.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai4_KhachHang_CRUD_chuan/Test/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai4_KhachHang_CRUD_chuan/Test/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai4_KhachHang_CRUD_chuan/Test/insert" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai4_KhachHang_CRUD_chuan/Test/insert" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,13 +69,14 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/quyetdinhcuocdoi/Java_jdbc/vidu/src/Bai4_KhachHang",
+    "last_opened_file_path": "D:/quyetdinhcuocdoi/Java_jdbc/vidu/src/bai5_ontap_crud_khachhang",
     "onboarding.tips.debug.path": "D:/quyetdinhcuocdoi/Java_jdbc/vidu/src/Main.java",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\quyetdinhcuocdoi\Java_jdbc\vidu\src\bai5_ontap_crud_khachhang" />
       <recent name="D:\quyetdinhcuocdoi\Java_jdbc\vidu\src\Bai4_KhachHang" />
       <recent name="D:\quyetdinhcuocdoi\Java_jdbc\vidu\src\Bai3_Onsach\" />
       <recent name="D:\quyetdinhcuocdoi\Java_jdbc\vidu\src\Bai1_Connect_DB\lib" />
